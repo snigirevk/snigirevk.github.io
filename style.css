@@ -1,0 +1,111 @@
+
+body {background-color: #ebebff;
+    
+}
+header {font-weight: bold;
+  font-size: 49px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+padding: 25px;
+}
+
+h1 {
+  font-weight: 400;
+  background-color: #c6c4f4;
+ font-family: "Gill Sans", sans-serif;
+  border-radius: 13px;
+  font-size: 24px;
+  padding: 2px;
+  text-align: center;
+  
+  }
+  
+
+
+  .soundcloud {
+   padding: 2px;
+    font-family: "Gill Sans", sans-serif;
+      text-align: center;
+    
+  }
+    
+  .tracks {border: 3px solid #c6c4f4;
+  border-radius: 9px;
+  
+    }
+    
+                                                    /*честно спёр и адаптировал галлерею на css*/
+    
+.gall {
+  position: relative;
+  padding: 11%;
+
+   
+}
+.gall img {
+  position: absolute;
+
+  left: 12.5%;
+  max-width: %;
+  max-height: 100%;
+  -web-kit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: zoom-in;
+  transition: .1s;
+  border-color: #c6c4f4;
+  border-radius: 14px; 
+}
+.gall img:nth-child(4n-2) {left: 37.5%;}
+.gall img:nth-child(4n-1) {left: 62.5%;}
+.gall img:nth-child(4n) {left: 87.5%;}
+.gall img:nth-child(n+5) {top: 75%;}
+
+.gall img:focus {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  z-index: 1;
+  max-width: 250%;
+  max-height: 200%;
+  outline: none;
+  pointer-events: none;
+  
+}
+.gall img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  cursor: zoom-out;
+}
+                                                          /*               */                    
+.video {
+ text-align: center;
+
+}
+
+.sets {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 18px;
+}
+
+iframe {
+border: 3px solid #c6c4f4;
+ border-radius: 13px;
+ }
+ 
+ footer{
+ background-color: #c6c4f4;
+   border-radius: 13px;
+   
+
+ }
+ .link {
+  text-align: center;
+  padding: 5px;
+  
+ }
+ 
