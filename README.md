@@ -1,1 +1,2 @@
-<a href="http://monoono.space/">my web site</a>
+<a href="snigirevk.github.io
+/">my web site</a>
